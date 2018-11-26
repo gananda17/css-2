@@ -1,0 +1,46 @@
+body{
+    font-family: 'Shadows Into Light', cursive;
+}
+a {
+    color: #48b944
+}
+a:hover{
+    font-weight: bold;
+    color : #1d9919;
+}
+a:visited{
+    color:#67df63
+}
+.form-input{
+    border: 2px solid grey;
+    padding: 5px;
+}
+.form-input:focus{
+    border-color: #008039;
+    outline: none;
+}
+.col-sm{
+    margin: -2px;
+    width: 100%;
+}
+@media(min-width:576px){
+    .col-sm{width:50%}
+}
+@media(min-width : 768px){
+    .col-sm{width: 33%}
+}
+@media(min-width :992px){
+    .col-sm{width:25%}
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 1px solid black;
+}
+.item{
+    color: #090968;
+    border: 1px solid black;
+    padding: 20px;
+}
