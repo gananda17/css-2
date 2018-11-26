@@ -39,6 +39,17 @@ a:visited{
     height: 100px;
     border: 1px solid black;
 }
+.Nav{
+    display: flex;
+    height : 100px;
+    border: 1px solid black;
+    flex-direction: column;
+}
+    @media (min-width: 576px){
+        .Nav{
+            flex-direction: row;
+        }
+    }
 .item{
     color: #090968;
     border: 1px solid black;
